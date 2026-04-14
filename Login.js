@@ -21,7 +21,7 @@ export default function Login({ navigation }) {
 
   const handleLogin = () => {
     if (email === 'matheus.souza98@aluno.ce.gov.br' && senha === '123456') {
-      navigation.navigate('BemVindo');
+      navigation.navigate('Inicio');
     } else {
       alert('Seus dados estão incorretos');
     }

@@ -7,10 +7,10 @@ import Cadastro from './Cadastro';
 import EsqueceuSenha from './EsqueceuSenha';
 import CodigoVerificacao from './CodigoVerificacao';
 import NovaSenha from './NovaSenha';
-import BemVindo from './BemVindo';
 import Escala from './Escala';
 import Formacao from './Formacao';
-import Configuracoes from './Configuracoes';
+import Configuracoes from './Configuracoes'; 
+import Inicio from './Inicio';
 
 const Stack = createNativeStackNavigator();
 
@@ -25,7 +25,7 @@ export default function App() {
         <Stack.Screen name="Cadastro" component={Cadastro} />
         <Stack.Screen name="EsqueceuSenha" component={EsqueceuSenha} />
         <Stack.Screen name="CodigoVerificacao" component={CodigoVerificacao} />
-        <Stack.Screen name="BemVindo" component={BemVindo} />
+        <Stack.Screen name="Inicio" component={Inicio} />
         <Stack.Screen name="NovaSenha" component={NovaSenha} />
         <Stack.Screen name="Escala" component={Escala} />
         <Stack.Screen name="Formacao" component={Formacao} />

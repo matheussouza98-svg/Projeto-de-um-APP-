@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-export default function BemVindo({ navigation }) {
+export default function Inicio({ navigation }) {
   const [menuVisible, setMenuVisible] = useState(false);
 
   return (
@@ -26,7 +26,7 @@ export default function BemVindo({ navigation }) {
               style={styles.dropdownItem}
               onPress={() => {
                 setMenuVisible(false);
-                navigation.navigate('BemVindo');
+                navigation.navigate('Inicio');
               }}
             >
               <Text style={[styles.dropdownText, styles.dropdownTextLarge]}>Início</Text>

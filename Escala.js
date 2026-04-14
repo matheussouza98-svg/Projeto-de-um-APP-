@@ -27,7 +27,7 @@ export default function Escala({ navigation }) {
               style={styles.dropdownItem}
               onPress={() => {
                 setMenuVisible(false);
-                navigation.navigate('BemVindo');
+                navigation.navigate('Inicio');
               }}
             >
               <Text style={[styles.dropdownText, styles.dropdownTextLarge]}>Início</Text>
